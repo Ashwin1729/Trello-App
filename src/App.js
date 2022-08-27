@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import List from "./components/List/List";
 
-import { makeStyles } from "@mui/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import StoreApi from "./utils/StoreApi";
 import InputContainer from "./components/Input/InputContainer";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";

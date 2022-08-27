@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper, CssBaseline } from "@mui/material";
-import { makeStyles } from "@mui/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Title from "./Title";
 import Card from "../Card";
 import InputContainer from "../Input/InputContainer";

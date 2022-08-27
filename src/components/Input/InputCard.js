@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Paper, InputBase, Button, IconButton } from "@material-ui/core";
-import { makeStyles } from "@material-ui/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { Clear } from "@mui/icons-material";
 import StoreApi from "../../utils/StoreApi";
 
