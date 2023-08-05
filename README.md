@@ -3,7 +3,7 @@
 It is a basic trello clone that contains basic functionality of Trello.
 In it we can add different list, different lists can have different tasks which can be dragged and dropped inside a list and across the lists too.
 
-# Technologies Used
+### Technologies Used
 
 Application is implemented in React.js, application wide state management is done using React Context, UI and Styling is done using Material UI and React-beautiful-dnd is used for the drag and drop functionality.
 
@@ -11,7 +11,7 @@ Deployment Link - https://trello-app-ashwin.netlify.app/
 
 
 
-# OPTIONAL QUESTIONS -----------------
+### OPTIONAL QUESTIONS -----------------
 
 1. (Ans) =>  To allow users to create and edit stages for a particular board, what I will do is, I will create a new field inside my context or redux (lets say boards) to save an array of objects, each object corresponding to each board. Each object will contain one of the fields (lets say lists) as an array  of objects representing each task. In this way will have a list of different boards each one having its corresponding lists. Now we can display it in the UI. In this case our draggables will be a list of items of a particular board and boards as well. Droppables would be App component (for draggables as stages) and Stages (for draggables as list items).
 
